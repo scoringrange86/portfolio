@@ -14,6 +14,7 @@ function Contact() {
     //     { type: "Github", icon: "icon", link: "github.com/scoringrange86" },
     //     { type: "Email", icon: "icon", link: "scoringrange86@gmail.com" }
 
+    //
     // ];
 
     // let contactNames = ["Linkedn", "Github", "Email"];
