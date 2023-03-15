@@ -5,10 +5,12 @@ import Skills from './components/Skills';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import {BrowserRouter} from 'react-router-dom'
 
 
 function App() {
   return (
+    // <BrowserRouter>
     <div className="App">
       <header>
       <h1> Portfolio Site </h1>
@@ -29,6 +31,7 @@ function App() {
         </main>
         <Footer/>
     </div>
+    // </BrowserRouter>
   );
 }
 
