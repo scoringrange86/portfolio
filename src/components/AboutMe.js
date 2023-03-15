@@ -9,7 +9,7 @@ function AboutMe() {
             <div className="content-wrapper">
                 <p> I am a Mobile Application and Web Developer. 
                     I received my bachelor's degree in Computer Science from the University of Kentucky.
-                    I am an ambitious asset whose thirst for knowledge and passion for excellence leads to powerful projects. 
+                    I am an ambitious leader whose thirst for knowledge and passion for excellence leads to powerful projects. 
                 </p>
             </div>
         </div>

@@ -39,5 +39,13 @@
 }
 
 header{
-  margin-bottom: 100px;
+  margin: 10em auto;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.8em;
 }

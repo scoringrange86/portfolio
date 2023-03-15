@@ -2,9 +2,6 @@
 
 //    Add Social media icons
 
-
-
-// import {Link} from "react-router-dom";
 import './Contact.css'
 
 function Contact() {
@@ -27,7 +24,7 @@ function Contact() {
                             className="contact-item"
                              key={contact.name}
                             href={contact.path}
-                            rel="noreferrer" 
+                            rel= "noopener noreferrer" 
                             target="_blank">
                                 <p>{contact.name}</p>
                             </a>

@@ -1,5 +1,4 @@
 import "./Projects.css"
-import {Link} from "react-router-dom"
 
 function Projects () {
     let projects = [
@@ -7,7 +6,6 @@ function Projects () {
                     { name: 'Juiceshop', path: "https://scoringrange86.github.io/juiceshop-frontend/"}, 
                     {name: 'Pomodoro', path: "https://scoringrange86.github.io/cryptovisor-frontend/"}
                     ]
-                    // key={project.name}
 
     return (
         <div className="projects-wrapper">
@@ -18,7 +16,9 @@ function Projects () {
                     <a className="project-item"  
                     key={project.name}
                     href= {project.path}
-                    target="_blank">
+                    target="_blank"
+                    rel= "noopener noreferrer"
+                    >
                         {project.name}
                         </a>
                 ))

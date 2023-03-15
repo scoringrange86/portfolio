@@ -1,5 +1,5 @@
 .projects-wrapper {
-    margin-bottom: 30px;
+    margin: 10.5em auto;
 }
 
 .projects-content-wrapper {
@@ -13,7 +13,7 @@
 .project-item{
  font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 40px;
     text-align: center;
     color: #148027;
     text-decoration: none;

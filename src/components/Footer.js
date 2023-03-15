@@ -1,7 +1,9 @@
+import "./Footer.css"
+
 function Footer() {
     return (
         <footer>
-            <p>
+            <p className="footer">
                 Copyright (C) 2023 Success Keeps Growing 
             </p>
         </footer>
