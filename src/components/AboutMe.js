@@ -1,11 +1,13 @@
 import "./AboutMe.css"
+import Headshot from "../images/headshotCropped.jpg"
 
 function AboutMe() {
 
     return (
         <div className="about-me-wrapper">
-            <h1>About Me</h1>
-            <h3> Steven Roberts</h3>
+            <h1>Steven Roberts</h1>
+            <img src={Headshot} alt="headshot"/>
+            <h3> Software Engineer</h3>
             <div className="content-wrapper">
                 <p> I am a Mobile Application and Web Developer. 
                     I received my bachelor's degree in Computer Science from the University of Kentucky.

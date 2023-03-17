@@ -4,7 +4,7 @@ function Projects () {
     let projects = [
                     { name: 'Cryptovisor', path: "https://scoringrange86.github.io/cryptovisor-frontend/"},
                     { name: 'Juiceshop', path: "https://scoringrange86.github.io/juiceshop-frontend/"}, 
-                    {name: 'Pomodoro', path: "https://scoringrange86.github.io/cryptovisor-frontend/"}
+                    // {name: 'Pomodoro', path: "https://scoringrange86.github.io/cryptovisor-frontend/"}
                     ]
 
     return (

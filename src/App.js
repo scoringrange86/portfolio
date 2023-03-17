@@ -33,3 +33,12 @@ function App() {
 }
 
 export default App;
+
+
+
+// ########## To Do 
+
+// - Add carousel 
+// - Add skills item 
+// - Final decision on Project items 
+// - Adjust font / background / theme
