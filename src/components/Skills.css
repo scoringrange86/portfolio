@@ -1,3 +1,17 @@
 .skills-wrapper {
     margin: 10.5em auto;
 }
+
+.skill-card {
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    color: black;
+    font-size: 1em;
+    line-height: 2.2em;
+    margin: 0.3em;
+    padding: 0.2em 0.35em;
+    text-align: center;
+    text-shadow: none;
+    white-space: pre;
+    box-sizing: border-box;
+}

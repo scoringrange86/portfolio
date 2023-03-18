@@ -1,18 +1,29 @@
 import "./Skills.css"
 
 function Skills() {
-
-    let skills = ["React", "Javascript", "Python"]
+    let skillsTopRow = ["React", "Java", "Python", "NodeJS"]
+    let skillsBottomRow = ["HTML", "CSS", "C++", "SQL"]
 
     return (
         <div className="skills-wrapper">
             <h1> Skills </h1>
+            <p>
             {
-                skills.map( (skill) => (
-                    <p key={skill}> {skill}</p>  
+                skillsTopRow.map( (skill) => (
+                    
+                    <span className="skill-card" key={skill}> {skill}</span>  
+                    
+                    ))
+            }
+            </p>
+            <p>
+            {
+                skillsBottomRow.map( (skill) => (
+                    <span className="skill-card" key={skill}> {skill}</span>  
                 
                     ))
             }
+            </p>
         </div>
     )
 

@@ -10,11 +10,11 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <header>
-      <h1> Portfolio Site </h1>
+      <header >
+      <AboutMe/>
       </header>
         <main>
-        <AboutMe/>
+        {/* <AboutMe/> */}
           <div style={{ maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
             {/* <Carousel
             >
