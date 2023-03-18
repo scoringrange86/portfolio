@@ -1,5 +1,6 @@
 import "./AboutMe.css"
 import Headshot from "../images/headshotCropped.jpg"
+import Resume from "../documents/StevenRobertsResume.docx.pdf"
 
 function AboutMe() {
 
@@ -16,6 +17,7 @@ function AboutMe() {
                     I am an ambitious leader whose thirst for knowledge and passion for excellence leads to powerful projects. 
                 </p>
             </div>
+            <a href={Resume} target="_blank"  rel= "noopener noreferrer" className="resume-link">Resume</a>
         </div>
     );
 }
