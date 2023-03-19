@@ -2,6 +2,14 @@
     margin: 10.5em auto;
 }
 
+.skills-cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-row-gap: .4em;
+    grid-column-gap: .4em;
+
+}
+
 .skill-card {
     background-color: white;
     box-shadow: 5px 5px 10px black;

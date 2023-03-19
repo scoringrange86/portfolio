@@ -3,8 +3,10 @@
 }
 
 .projects-content-wrapper {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, .2fr);
+    grid-column-gap: .5em;
+    grid-row-gap: 1em;
     max-width: 80%;
     justify-content: space-around;
     margin: auto; 
@@ -13,7 +15,7 @@
 .project-item{
  font-style: normal;
     font-weight: normal;
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: center;
     color: #148027;
     text-decoration: none;
@@ -21,8 +23,9 @@
     border: 5px outset rgba(86, 86, 86, 0.3);
     box-sizing: border-box;
     box-shadow: 0px 20px 20px rgba(252, 251, 251, 0.05);
-    padding: 40px 40px;
-    border-radius: 5px;
+    padding: 1.7em 1.7em;
+    border-radius: .25em;
+ 
 }
 
 .project-item:hover {
@@ -33,3 +36,12 @@
 .project-item:active {
     border: 5px outset #FFFFFF;
 }
+
+
+
+@media (max-width: 675px) {
+    .projects-content-wrapper {
+        grid-template-columns: repeat(1, .2fr);
+    }
+}
+
