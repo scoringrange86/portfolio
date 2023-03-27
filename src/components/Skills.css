@@ -3,11 +3,15 @@
 }
 
 .skills-cards-wrapper {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(4, auto);
     grid-row-gap: .4em;
-    grid-column-gap: .4em;
+    grid-column-gap: .4em; */
 
+    text-align: center;
+    /* white-space: normal; */
+    /* max-width: 3em; */
+    margin: auto;
 }
 
 .skill-card {
@@ -22,4 +26,21 @@
     text-shadow: none;
     white-space: pre;
     box-sizing: border-box;
+}
+
+
+@media (max-width: 675px) {
+    .skill-card {
+        font-size: .75em;
+    }
+}
+
+@media (max-width: 475px) {
+    .skill-card {
+        font-size: .6em;
+    }
+}
+
+p {
+    text-align: center;
 }

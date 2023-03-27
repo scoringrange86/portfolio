@@ -20,7 +20,7 @@
     color: #148027;
     text-decoration: none;
     background: linear-gradient(142.96deg, rgba(5, 5, 5, 0.6) 15.96%, rgba(19, 19, 19, 0.8) 83.29%);
-    border: 5px outset rgba(86, 86, 86, 0.3);
+    border: 1px solid rgba(86, 86, 86, 0.3);
     box-sizing: border-box;
     box-shadow: 0px 20px 20px rgba(252, 251, 251, 0.05);
     padding: 1.7em 1.7em;
@@ -29,12 +29,12 @@
 }
 
 .project-item:hover {
-    border: 5px outset rgba(252, 250, 250, 0.3);
+    border: 1px solid rgba(252, 250, 250, 0.3);
 }
 
 
 .project-item:active {
-    border: 5px outset #FFFFFF;
+    border: 1px solid #FFFFFF;
 }
 
 

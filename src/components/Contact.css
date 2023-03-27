@@ -30,3 +30,17 @@ a {
 a:hover {
     color: white; 
 }
+
+
+
+@media (max-width: 675px) {
+    .contact-content {
+        font-size: .75em;
+    }
+}
+
+@media (max-width: 475px) {
+    .contact-content {
+        font-size: .6em;
+    }
+}

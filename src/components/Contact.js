@@ -7,7 +7,7 @@ import './Contact.css'
 function Contact() {
 
 
-    let contacts = [ { name: "Linkedn", path: "https://www.linkedin.com/in/steven-roberts-thrive"},
+    let contacts = [ { name: "LinkedIn", path: "https://www.linkedin.com/in/steven-roberts-thrive"},
                         { name: "Github", path: "https://github.com/scoringrange86"},
                          {name: "Email", path: "mailto:scoringrange86@gmail.com"}
                     ]
