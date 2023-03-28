@@ -4,16 +4,15 @@
 
 }
 .content-wrapper {
-    /* max-width: 70%; */
     text-align: center;
     margin: auto;
 }
 
 .headshot {
-    border-radius: 10px;
-    border: 2px solid rgba(86, 86, 86, 0.3);
+    border-radius: 22px;
+    border: 1px solid rgba(86, 86, 86, 0.3);
     box-sizing: border-box;
-    box-shadow: 0px 20px 20px rgba(252, 251, 251, 0.05);
+    box-shadow: 12px 12px 18px 0 rgba(0, 0, 0, .2), 12px 12px 18px 0 rgba(0, 0, 0, .19);
 }
 
 .resume-link {
@@ -21,10 +20,10 @@
     font-weight: normal;
     font-size: 1em;
     text-align: center;
-    color: #148027;
+    color: white;
     text-decoration: none;
-    background: linear-gradient(142.96deg, rgba(5, 5, 5, 0.6) 15.96%, rgba(19, 19, 19, 0.8) 83.29%);
-    border: 1px solid rgba(86, 86, 86, 0.3);
+    background: #e8a725;
+    border: 1px solid white;
     box-sizing: border-box;
     box-shadow: 0px 20px 20px rgba(252, 251, 251, 0.05);
     padding: 6px 6px;
@@ -32,11 +31,13 @@
 }
 
 .resume-link:hover {
-    border: 1px solid rgba(252, 250, 250, 0.3);
+    border: 1px solid #148027;
+    color: #148027;
 }
 
 .resume-link:active {
-    border: 1px solid #FFFFFF;
+    border: 1px solid #139b2c;
+    color: #139b2c;
 }
 
 @media (max-width: 850px) {

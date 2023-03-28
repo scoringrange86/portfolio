@@ -3,14 +3,7 @@
 }
 
 .skills-cards-wrapper {
-    /* display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-row-gap: .4em;
-    grid-column-gap: .4em; */
-
     text-align: center;
-    /* white-space: normal; */
-    /* max-width: 3em; */
     margin: auto;
 }
 

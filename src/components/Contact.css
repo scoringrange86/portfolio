@@ -25,12 +25,16 @@
 a {
     color: black; 
     text-decoration: none; 
+    margin-right: .5em;
 }
 
 a:hover {
     color: white; 
 }
 
+td {
+    text-align: left;
+}
 
 
 @media (max-width: 675px) {

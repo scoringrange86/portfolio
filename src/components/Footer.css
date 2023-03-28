@@ -1,15 +1,15 @@
 .footer {
-    font-size: 1.15em;
+    font-size: 1em;
 }
 
 @media (max-width: 675px) {
     .footer {
-        font-size: .75em;
+        font-size: .7em;
     }
 }
 
 @media (max-width: 475px) {
     .skill-card {
-        font-size: .6em;
+        font-size: .5em;
     }
 }
